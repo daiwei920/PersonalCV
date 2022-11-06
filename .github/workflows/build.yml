@@ -32,5 +32,7 @@ jobs:
       - name: deploy
         run: |
           sudo npm install gh-pages -g --legacy-peer-deps
+          git config --global user.email "dave@cyberlark.com.au"
+          git config --global user.name "Dave Github"
           gh-pages -d build
 
