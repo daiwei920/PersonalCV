@@ -31,6 +31,6 @@ jobs:
 
       - name: deploy
         run: |
-          sudo npm install ph-pages -g --legacy-peer-deps
+          sudo npm install gh-pages -g --legacy-peer-deps
           gh-pages -d build
 
