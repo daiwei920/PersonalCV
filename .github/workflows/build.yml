@@ -30,7 +30,7 @@ jobs:
         run: npm run build
 
       - name: deploy
-      run: |
-        sudo npm install ph-pages -g
-        gh-pages -d build
+        run: |
+          sudo npm install ph-pages -g
+          gh-pages -d build
 
